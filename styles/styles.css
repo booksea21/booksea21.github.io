@@ -154,6 +154,7 @@ section {
   flex-wrap: wrap;
   gap: 1rem;
   align-items: center;
+  justify-content: start; /* or center if you want centered logos */
 }
 
 .logo-box {
@@ -165,10 +166,9 @@ section {
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out;
-}
-
-.logo-box:hover {
-  transform: scale(1.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*Header-content*/
 .header-content {
